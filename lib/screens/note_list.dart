@@ -121,7 +121,7 @@ class _NoteListState extends State<NoteList> {
     final snackBar = SnackBar(
       content: Text(message),
       duration: Duration(
-        milliseconds: 800,
+        seconds: 5,
       ),
     );
     Scaffold.of(context).showSnackBar(snackBar);
